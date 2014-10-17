@@ -31,3 +31,4 @@ _ReSharper*/
 *.orig
 */packages/
 src/Web.LittleRock/imagecache/
+packages/
