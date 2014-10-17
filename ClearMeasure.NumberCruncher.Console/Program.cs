@@ -9,7 +9,7 @@ namespace TheTesst
     {
         static void Main(string[] args)
         {
-            var formatter = new DefaultPrinterFormatter(() => new FileResultStore(), new NumberToWord(), new FizzBuzz());
+            var formatter = new DefaultPrinterFormatter(() => new StringBuilderResultStore(), new NumberToWord(), new FizzBuzz());
             var printer = new ConsolePrinter();
             var cruncher = new Cruncher(formatter, printer);
 
